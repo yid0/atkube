@@ -1,0 +1,7 @@
+- name: Build an image
+  community.docker.docker_image:
+    build:
+      path: ../../Dockerfile
+    tag: v1
+    push: false
+    source: build

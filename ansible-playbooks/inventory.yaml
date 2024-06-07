@@ -1,0 +1,3 @@
+all:
+  hosts:
+    fast-api: fast-api
